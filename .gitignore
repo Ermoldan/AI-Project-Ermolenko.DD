@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Local runtime data
+incoming/
+
+# Raw datasets (too large for git)
+data/raw/3w/
+data/raw/3w_source/
+
+# Optional heavy artifacts
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+reports/prediction_summary_*.txt
